@@ -1,4 +1,3 @@
-// Social.js
 "use client";
 
 import { FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
@@ -13,8 +12,10 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-cyan-300 hover:text-blue-400 transition-all"
-        whileHover={{ scale: 1.1 }} // Slight scaling on hover
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
+        whileHover={{ scale: 1.1, rotate: 5 }} // Slight scaling and rotate
       >
         <FaFacebookF size={36} />
       </motion.a>
@@ -25,8 +26,10 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-red-400 hover:text-red-500 transition-all"
-        whileHover={{ scale: 1.1 }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.2 }}
+        whileHover={{ scale: 1.1, rotate: -5 }}
       >
         <FaYoutube size={36} />
       </motion.a>
@@ -37,8 +40,10 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-black hover:text-gray-500 transition-all"
-        whileHover={{ scale: 1.1 }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.3 }}
+        whileHover={{ scale: 1.1, rotate: 5 }}
       >
         <FaTiktok size={36} />
       </motion.a>
@@ -49,8 +54,10 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-green-400 hover:text-green-500 transition-all"
-        whileHover={{ scale: 1.1 }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.4 }}
+        whileHover={{ scale: 1.1, rotate: -5 }}
       >
         <FaWhatsapp size={36} />
       </motion.a>
@@ -61,8 +68,10 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-pink-400 hover:text-pink-500 transition-all"
-        whileHover={{ scale: 1.1 }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.5 }}
+        whileHover={{ scale: 1.1, rotate: 5 }}
       >
         <FaInstagram size={36} />
       </motion.a>
