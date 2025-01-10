@@ -1,6 +1,6 @@
 "use client";
 
-import Photo from "@/components/Photo";
+//import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Name from "@/components/Name";
 import Contact from "@/components/Contact";
