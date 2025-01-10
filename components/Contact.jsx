@@ -9,18 +9,18 @@ const Contact = () => {
 
       <div className="bg-gray-800 p-4 rounded-lg mb-4 flex items-center gap-4">
         <FaPhoneAlt className="text-green-400" />
-        <span className="text-lg">0779748492</span>
+        <span className="text-lg">+94766876368</span>
       </div>
 
       <div className="bg-gray-800 p-4 rounded-lg mb-4 flex items-center gap-4">
         <FaMapMarkerAlt className="text-red-400" />
-        <span className="text-lg">123 Main Street, Badulla</span>
+        <span className="text-lg">331/A Kanupella, Badulla</span>
       </div>
 
       <div className="bg-gray-800 p-4 rounded-lg flex items-center gap-4">
         <FaGlobe className="text-blue-400" />
         <a
-          href="https://www.yourwebsite.com"
+          href="https://www.yourwebsite.com/naveendasunpriy"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg hover:underline"

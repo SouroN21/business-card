@@ -6,7 +6,7 @@ const Social = () => {
   return (
     <div className="flex justify-around p-6 bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-xl shadow-lg">
       <a
-        href="https://www.facebook.com"
+        href="https://web.facebook.com/profile.php?id=100009860147015"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:text-blue-700 transition-transform transform hover:scale-110"
@@ -14,7 +14,7 @@ const Social = () => {
         <FaFacebookF size={32} />
       </a>
       <a
-        href="https://www.youtube.com"
+        href="https://www.youtube.com/NaveenDasunpriy"
         target="_blank"
         rel="noopener noreferrer"
         className="text-red-500 hover:text-red-700 transition-transform transform hover:scale-110"
@@ -38,7 +38,7 @@ const Social = () => {
         <FaWhatsapp size={32} />
       </a>
       <a
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/_.souron.__/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-pink-500 hover:text-pink-700 transition-transform transform hover:scale-110"
