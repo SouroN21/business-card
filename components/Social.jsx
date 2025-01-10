@@ -4,22 +4,22 @@ import { FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaInstagram } from "react
 
 const Social = () => {
   return (
-    <div className="flex justify-around p-6 bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-xl shadow-lg">
+    <div className="flex justify-around p-8 bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-700 rounded-xl shadow-xl transform transition-all hover:scale-105">
       <a
         href="https://web.facebook.com/profile.php?id=100009860147015"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-500 hover:text-blue-700 transition-transform transform hover:scale-110"
+        className="text-cyan-300 hover:text-blue-400 transition-transform transform hover:scale-110"
       >
-        <FaFacebookF size={32} />
+        <FaFacebookF size={36} />
       </a>
       <a
         href="https://www.youtube.com/NaveenDasunpriy"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-red-500 hover:text-red-700 transition-transform transform hover:scale-110"
+        className="text-red-400 hover:text-red-500 transition-transform transform hover:scale-110"
       >
-        <FaYoutube size={32} />
+        <FaYoutube size={36} />
       </a>
       <a
         href="https://www.tiktok.com"
@@ -27,23 +27,23 @@ const Social = () => {
         rel="noopener noreferrer"
         className="text-black hover:text-gray-500 transition-transform transform hover:scale-110"
       >
-        <FaTiktok size={32} />
+        <FaTiktok size={36} />
       </a>
       <a
         href="https://www.whatsapp.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-green-500 hover:text-green-700 transition-transform transform hover:scale-110"
+        className="text-green-400 hover:text-green-500 transition-transform transform hover:scale-110"
       >
-        <FaWhatsapp size={32} />
+        <FaWhatsapp size={36} />
       </a>
       <a
         href="https://www.instagram.com/_.souron.__/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-pink-500 hover:text-pink-700 transition-transform transform hover:scale-110"
+        className="text-pink-400 hover:text-pink-500 transition-transform transform hover:scale-110"
       >
-        <FaInstagram size={32} />
+        <FaInstagram size={36} />
       </a>
     </div>
   );
