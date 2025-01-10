@@ -1,3 +1,4 @@
+// Social.js
 "use client";
 
 import { FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
@@ -5,6 +6,7 @@ import { FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaInstagram } from "react
 const Social = () => {
   return (
     <div className="flex justify-around p-8 bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-700 rounded-xl shadow-xl transform transition-all hover:scale-105">
+      {/* Facebook */}
       <a
         href="https://web.facebook.com/profile.php?id=100009860147015"
         target="_blank"
@@ -13,6 +15,8 @@ const Social = () => {
       >
         <FaFacebookF size={36} />
       </a>
+
+      {/* YouTube */}
       <a
         href="https://www.youtube.com/NaveenDasunpriy"
         target="_blank"
@@ -21,6 +25,8 @@ const Social = () => {
       >
         <FaYoutube size={36} />
       </a>
+
+      {/* TikTok */}
       <a
         href="https://www.tiktok.com"
         target="_blank"
@@ -29,6 +35,8 @@ const Social = () => {
       >
         <FaTiktok size={36} />
       </a>
+
+      {/* WhatsApp */}
       <a
         href="https://www.whatsapp.com"
         target="_blank"
@@ -37,6 +45,8 @@ const Social = () => {
       >
         <FaWhatsapp size={36} />
       </a>
+
+      {/* Instagram */}
       <a
         href="https://www.instagram.com/_.souron.__/"
         target="_blank"

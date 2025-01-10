@@ -1,6 +1,7 @@
+// Name.js
 "use client";
 
-import { motion } from "framer-motion";  // For animations
+import { motion } from "framer-motion"; // For animations
 
 const Name = () => {
   return (
