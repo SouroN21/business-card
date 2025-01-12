@@ -11,7 +11,7 @@ const Photo = () => {
           alt="Description of the image"
           width={400}
           height={400}
-          className="rounded-lg shadow-lg border-4 border-cyan-400 hover:border-blue-500 blue-glow-border"
+          className="rounded-xl shadow-lg border-4 border-cyan-400 hover:border-blue-500 blue-glow-border"
           priority
         />
       </div>
