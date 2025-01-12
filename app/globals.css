@@ -56,7 +56,7 @@ body {
   }
 }
 .blue-glow-border {
-  animation: blue-glow 2s ease-in-out infinite;
+  animation: blue-glow 4s ease-in-out infinite;
 }
 
 /* Glow Effect for Text */
