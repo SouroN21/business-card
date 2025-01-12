@@ -18,7 +18,7 @@ const Name = () => {
       </motion.h1>
 
       <motion.div
-        className="h-1 w-40 mt-1 bg-white rounded"
+        className="h-1 w-40 mt-1 rounded gradient-animation"
         initial={{ scaleX: 0, scaleY: 0.5 }}
         animate={{ scaleX: 1, scaleY: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}

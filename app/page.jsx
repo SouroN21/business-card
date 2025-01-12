@@ -14,7 +14,11 @@ export default function Home() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-blue-300 to-transparent opacity-50 z-0 animate-pulse" />
+      {/* Background gradient animation */}
+      <div className="absolute inset-0 bg-gradient-to-t from-blue-300 to-transparent opacity-50 z-0 animate-gradient-move" />
+
+      {/* Adding an additional animated background layer */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-300 to-pink-200 opacity-30 z-0 animate-gradient-move delay-3000" />
 
       <div className="w-full max-w-md mt-1 relative z-10 space-y-6">
         <motion.div
@@ -36,7 +40,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
+          className="transform transition-all duration-500 hover:scale-110 hover:shadow-2xl mt-5 rounded-xl shadow-lg bg-white bg-opacity-30 backdrop-blur-md"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
@@ -45,7 +49,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
+          className="transform transition-all duration-500 hover:scale-110 hover:shadow-2xl mt-5 rounded-xl shadow-lg bg-white bg-opacity-30 backdrop-blur-md"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.9 }}
