@@ -44,7 +44,7 @@ const Contact = () => {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         <FaGlobe className="text-blue-400 text-2xl" />
-        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300">www.naveen-xi.vercel.app</span>
+        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300">www.naveen.me</span>
       </motion.a>
     </motion.div>
   );

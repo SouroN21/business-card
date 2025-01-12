@@ -19,3 +19,79 @@ body {
   background: var(--background);
   font-family: 'Geist Sans', Arial, sans-serif;
 }
+@keyframes blue-glow {
+  0% {
+    border-color: rgba(0, 255, 255, 1); /* Light cyan */
+  }
+  10% {
+    border-color: rgba(0, 224, 255, 1); /* Lighter blue */
+  }
+  20% {
+    border-color: rgba(0, 191, 255, 1); /* Medium blue */
+  }
+  30% {
+    border-color: rgba(0, 140, 255, 1); /* Darker blue */
+   }
+  40% {
+    border-color: rgba(0, 80, 255, 1); /* Deep blue */
+  }
+  50% {
+    border-color: rgba(0, 0, 255, 1); /* Very deep blue */
+  }
+  60% {
+    border-color: rgba(0, 80, 255, 1); /* Darker blue */
+   }
+  70% {
+    border-color: rgba(0, 140, 255, 1); /* Deep blue */
+  }
+  80% {
+    border-color: rgba(0, 191, 255, 1); /* Very deep blue */
+  }
+  90%{
+    border-color: rgba(0, 224, 255, 1); 
+  }
+  100%{
+    border-color: rgba(0, 255, 255, 1);
+  }
+}
+@keyframes glow-effect {
+  0% {
+    color: rgba(255, 105, 180, 1); /* Light pink */
+   }
+  10% {
+    color: rgba(255, 85, 160, 1); /* Medium pink */
+  }
+  20% {
+    color: rgba(255, 70, 130, 1); /* Pinkish violet */
+   }
+  30% {
+    color: rgb(228, 228, 228); /* Medium orchid */
+  }
+  40% {
+    color: rgba(255, 20, 147, 1); /* Deep pink */
+  }
+  50% {
+    color: rgba(255, 105, 180, 1); /* Light pink */
+   }
+  60% {
+    color: rgba(219, 112, 147, 1); /* Pale violet red */
+  }
+  70% {
+    color: rgba(255, 105, 180, 1); /* Light pink */
+   }
+  80% {
+    color: rgba(255, 70, 130, 1); /* Pinkish violet */
+  }
+  90% {
+    color: rgba(255, 85, 160, 1); /* Medium pink */
+   }
+  100% {
+    color: rgba(255, 105, 180, 1); /* Light pink */
+  }
+}
+
+.name-color-animation {
+  animation: glow-effect 5s ease-in-out infinite;
+}
+
+
