@@ -57,36 +57,21 @@ body {
 @keyframes glow-effect {
   0% {
     color: rgba(255, 105, 180, 1); /* Light pink */
-   }
-  10% {
-    color: rgba(255, 85, 160, 1); /* Medium pink */
   }
   20% {
-    color: rgba(255, 70, 130, 1); /* Pinkish violet */
-   }
-  30% {
-    color: rgb(228, 228, 228); /* Medium orchid */
-  }
-  40% {
     color: rgba(255, 20, 147, 1); /* Deep pink */
   }
-  50% {
-    color: rgba(255, 105, 180, 1); /* Light pink */
-   }
+  40% {
+    color: rgba(255, 99, 71, 1);  /* Tomato red */
+  }
   60% {
-    color: rgba(219, 112, 147, 1); /* Pale violet red */
+    color: rgba(255, 140, 0, 1);   /* Dark orange */
   }
-  70% {
-    color: rgba(255, 105, 180, 1); /* Light pink */
-   }
   80% {
-    color: rgba(255, 70, 130, 1); /* Pinkish violet */
+    color: rgba(255, 223, 0, 1);   /* Yellow */
   }
-  90% {
-    color: rgba(255, 85, 160, 1); /* Medium pink */
-   }
   100% {
-    color: rgba(255, 105, 180, 1); /* Light pink */
+    color: rgba(0, 255, 255, 1);   /* Cyan */
   }
 }
 
