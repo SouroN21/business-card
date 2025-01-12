@@ -16,7 +16,7 @@ export default function Home() {
     >
       <div className="absolute inset-0 bg-gradient-to-t from-blue-300 to-transparent opacity-50 z-0 animate-pulse" />
 
-      <div className="w-full max-w-md mt-8 relative z-10 space-y-6">
+      <div className="w-full max-w-md mt-1 relative z-10 space-y-6">
         <motion.div
           className="transform transition-all duration-500 hover:scale-110"
           initial={{ opacity: 0, x: -50 }}
@@ -27,16 +27,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="transform transition-all duration-500 hover:scale-110 mt-6 rounded-xl shadow-lg bg-white bg-opacity-20"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
-        >
-          <Social />
-        </motion.div>
-
-        <motion.div
-          className="transform transition-all duration-500 hover:scale-110 mt-6 rounded-xl shadow-lg bg-white bg-opacity-20"
+          className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.7 }}
@@ -45,7 +36,16 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="transform transition-all duration-500 hover:scale-110 mt-6 rounded-xl shadow-lg bg-white bg-opacity-20"
+          className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+        >
+          <Social />
+        </motion.div>
+
+        <motion.div
+          className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.9 }}

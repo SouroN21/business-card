@@ -10,7 +10,7 @@ const Social = () => {
         href="https://web.facebook.com/profile.php?id=100009860147015"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-blue-600 transition-all"
+        className="text-white hover:text-blue-800"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
@@ -23,7 +23,7 @@ const Social = () => {
         href="https://www.youtube.com/@NaveenDasunpriy?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-red-600 transition-all"
+        className="text-white hover:text-red-600"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.2 }}
@@ -36,7 +36,7 @@ const Social = () => {
         href="https://www.tiktok.com/@souron21?"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-black transition-all"
+        className="text-white hover:text-black"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.3 }}
@@ -49,7 +49,7 @@ const Social = () => {
         href="https://wa.me/94766876368"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-green-600 transition-all"
+        className="text-white hover:text-green-600"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.4 }}
@@ -62,7 +62,7 @@ const Social = () => {
         href="https://www.instagram.com/_.souron.__/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-pink-500 transition-all"
+        className="text-white hover:text-pink-500"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.5 }}
