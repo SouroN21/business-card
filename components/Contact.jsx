@@ -22,7 +22,7 @@ const Contact = () => {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         <FaPhoneAlt className="text-green-400 text-2xl" />
-        <span className="text-lg font-medium text-white hover:text-green-300 hover:underline transition-all">
+        <span className="text-lg font-medium text-white hover:text-green-300 transition-all">
           +94766876368
         </span>
       </motion.a>
@@ -36,7 +36,7 @@ const Contact = () => {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         <FaMapMarkerAlt className="text-red-400 text-2xl" />
-        <span className="text-lg font-medium text-white hover:text-red-300 hover:underline transition-all">
+        <span className="text-lg font-medium text-white hover:text-red-300  transition-all">
           331/A Kanupella, Badulla
         </span>
       </motion.a>
@@ -50,7 +50,7 @@ const Contact = () => {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         <FaGlobe className="text-blue-400 text-2xl" />
-        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300 hover:underline transition-all max-w-full truncate">
+        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300  transition-all max-w-full truncate">
           www.naveen-xi.vercel.app
         </span>
       </motion.a>
