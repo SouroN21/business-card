@@ -11,9 +11,10 @@ const Contact = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: "easeOut" }}
     >
-      <h2 className="text-2xl font-extrabold text-center mb-6">
+      <h2 className="text-xl font-extrabold text-center mb-5 max-w-full">
         Contact Information
       </h2>
+
 
       {/* Phone Number */}
       <motion.a
@@ -53,9 +54,10 @@ const Contact = () => {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         <FaGlobe className="text-blue-400 text-2xl" />
-        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300 hover:underline transition-all">
-          WWW.naveen-xi.vercel.app
+        <span className="text-lg font-medium text-cyan-300 hover:text-blue-300 hover:underline transition-all max-w-full truncate">
+          www.naveen-xi.vercel.app
         </span>
+
       </motion.a>
     </motion.div>
   );
