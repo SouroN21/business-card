@@ -1,21 +1,21 @@
 "use client";
 
 import { FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
-import { motion } from "framer-motion"; // For smooth animations
+import { motion } from "framer-motion";
 
 const Social = () => {
   return (
-    <div className="flex justify-around p-8 bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-700 rounded-xl shadow-xl">
+    <div className="flex justify-around p-8 bg-gradient-to-r from-lightblue-300 via-lightblue-400 to-lightblue-500 rounded-xl shadow-xl">
       {/* Facebook */}
       <motion.a
         href="https://web.facebook.com/profile.php?id=100009860147015"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-cyan-300 hover:text-blue-400 transition-all"
+        className="text-blue-600 hover:text-blue-700 transition-all"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
-        whileHover={{ scale: 1.1, rotate: 5 }} // Slight scaling and rotate
+        whileHover={{ scale: 1.1, rotate: 5 }}
       >
         <FaFacebookF size={36} />
       </motion.a>
@@ -25,7 +25,7 @@ const Social = () => {
         href="https://www.youtube.com/@NaveenDasunpriy?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-red-400 hover:text-red-500 transition-all"
+        className="text-red-500 hover:text-red-600 transition-all"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.2 }}
@@ -39,7 +39,7 @@ const Social = () => {
         href="https://www.tiktok.com/@souron21?"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-black hover:text-gray-500 transition-all"
+        className="text-black hover:text-gray-600 transition-all"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.3 }}
@@ -53,7 +53,7 @@ const Social = () => {
         href="https://wa.me/94766876368"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-green-400 hover:text-green-500 transition-all"
+        className="text-green-500 hover:text-green-600 transition-all"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.4 }}
