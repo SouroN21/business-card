@@ -15,8 +15,6 @@ const Contact = () => {
         Contact Information
       </h2>
 
-
-      {/* Phone Number */}
       <motion.a
         href="tel:+94766876368"
         className="bg-blue-800 p-5 rounded-lg mb-5 flex items-center gap-4 hover:shadow-xl transform transition-all hover:bg-blue-700"
@@ -29,7 +27,6 @@ const Contact = () => {
         </span>
       </motion.a>
 
-      {/* Address */}
       <motion.a
         href="https://maps.app.goo.gl/n8s8uS4U7ua2id1B8"
         target="_blank"
@@ -44,7 +41,6 @@ const Contact = () => {
         </span>
       </motion.a>
 
-      {/* Website Link */}
       <motion.a
         href="https://naveen-xi.vercel.app/"
         target="_blank"
@@ -57,7 +53,6 @@ const Contact = () => {
         <span className="text-lg font-medium text-cyan-300 hover:text-blue-300 hover:underline transition-all max-w-full truncate">
           www.naveen-xi.vercel.app
         </span>
-
       </motion.a>
     </motion.div>
   );
