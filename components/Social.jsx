@@ -11,8 +11,8 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-800"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
         whileHover={{ scale: 1.2, rotate: 5 }}
       >
@@ -24,8 +24,8 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-red-600"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.2 }}
         whileHover={{ scale: 1.2, rotate: -5 }}
       >
@@ -37,8 +37,8 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-black"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.3 }}
         whileHover={{ scale: 1.2, rotate: 5 }}
       >
@@ -50,8 +50,8 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-green-600"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.4 }}
         whileHover={{ scale: 1.2, rotate: -5 }}
       >
@@ -63,8 +63,8 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-pink-500"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.5 }}
         whileHover={{ scale: 1.2, rotate: 5 }}
       >

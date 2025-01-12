@@ -28,8 +28,8 @@ export default function Home() {
 
         <motion.div
           className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.7 }}
         >
           <Name />
@@ -37,7 +37,7 @@ export default function Home() {
 
         <motion.div
           className="transform transition-all duration-500 hover:scale-110 mt-5 rounded-xl shadow-lg bg-white bg-opacity-20"
-          initial={{ opacity: 0, x: 50 }}
+          initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
         >
