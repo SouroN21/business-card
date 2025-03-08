@@ -20,7 +20,7 @@ const Social = () => {
       </motion.a>
 
       <motion.a
-        href="https://www.youtube.com/@NaveenDasunpriy?sub_confirmation=1"
+        href="https://www.youtube.com/@NaveenDasunpriya"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-red-600"
